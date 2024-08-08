@@ -1,0 +1,53 @@
+nav{
+    background-color: red;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    
+}
+@media (max-width : 750px){
+
+    
+  }
+nav:hover{
+    background-color: black;
+    transform:rotateX(20deg) ;
+    transition: all 1s;
+}
+#com{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+#con{
+    
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px
+}
+#con:hover{
+    background-color: brown;
+    transform:rotateX(20deg) ;
+    transition: all 1s;
+}
+a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+    
+
+}
+button{
+    border-radius: 20px;
+}
+#dl{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
